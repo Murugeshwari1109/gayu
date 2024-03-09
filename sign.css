@@ -1,0 +1,81 @@
+body{
+    overflow-y: hidden;
+}
+.back_img{
+    background-image: url(./assets/signinBg.png);
+    background-repeat: no-repeat;
+    height:100vh;
+    background-position: center center;
+    background-size: 33% 70%;
+    background-attachment: fixed; 
+    opacity:0.1;
+}
+.signin_body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Abril_font{
+    font-family:Abril Fatface;
+    color:#2FCACA;
+}
+.Jost_font{
+    font-family:Jost;
+
+    color:#000000;
+}
+.size {
+    font-size: 14px; 
+    border: 1px solid #2FCACA;
+}
+.forgot_pass {
+    margin-left: 35%;
+}
+.primary_color {
+    color: #2fcaca;
+  }
+.font-size{
+    font-size:13px;
+}
+.bg{
+    background-color: #2FCACA;
+    color: white;
+    font-size: 20px;
+}
+.para-style{
+    padding-left:50px;
+}
+.signin_subContainer_3 img {
+    width: 40px; /* Adjust the width as needed */
+     height:40px; /* Maintain aspect ratio */
+     margin: 2px; /*Optional:Add margin between images */
+} 
+@media only screen and (max-width: 1120px) {
+    .back_img {
+        background-size: 50% 70%; /* Adjust values as needed */
+        height: 90vh;
+    }
+
+    .size {
+        font-size: 12px;
+    }
+
+    .font-size {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .back_img {
+        background-size: 30% 30%; /* Adjust values as needed */
+        height: 90vh;
+    }
+
+    .size {
+        font-size: 12px;
+    }
+
+    .font-size {
+        font-size: 12px;
+    }
+}
